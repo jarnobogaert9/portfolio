@@ -1,0 +1,31 @@
+/* nav {
+  background-color: red;
+} */
+
+.nav {
+  /* background-color: rgba(192, 58, 58, 0.5); */
+  background-color: #1e1e1e;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  padding: 1.5em 0;
+  top: 0;
+  left: 0;
+}
+
+#brand {
+}
+
+.links {
+  float: right;
+  display: inline;
+}
+
+.links a {
+  margin-left: 1em;
+  padding: 0.5em;
+}
+
+.active {
+  /* border-bottom: 2px solid #b535ff; */
+}
