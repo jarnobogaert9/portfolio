@@ -2,6 +2,24 @@
   background-color: red;
 } */
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 18pt;
+}
+
+.nav_links {
+  display: flex;
+}
+
+.nav_links a {
+  padding: 1em;
+}
+
 .nav {
   /* background-color: rgba(192, 58, 58, 0.5); */
   background-color: #1e1e1e;
@@ -28,4 +46,21 @@
 
 .active {
   /* border-bottom: 2px solid #b535ff; */
+}
+
+@media only screen and (max-width: 800px) {
+  .links {
+    margin-top: 4.3em;
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    width: 100%;
+    text-align: right;
+  }
+  .links a {
+    display: block;
+    margin-top: 1em 0;
+  }
 }
