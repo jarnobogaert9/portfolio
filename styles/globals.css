@@ -114,6 +114,13 @@ footer {
   .container {
     width: 90%;
   }
+  .hero {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 30pt;
+  }
   .links {
     display: inline;
     position: absolute;
