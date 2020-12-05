@@ -1,8 +1,13 @@
 import Navbar from '../components/Navbar';
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Jarno Bogaert</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       {/* <Navbar /> */}
       <div class="hero">
         <div>
