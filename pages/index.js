@@ -1,5 +1,8 @@
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+import Slide from 'react-reveal/Slide';
 
 export default function Home() {
   return (
@@ -11,8 +14,13 @@ export default function Home() {
       {/* <Navbar /> */}
       <div class="hero">
         <div>
-          <h1 class="title">Jarno <span class="purple">Bogaert.</span></h1>
-          <p class="subtitle">Full stack <span class="underline">software</span> engineer.</p>
+          <Fade left>
+            <h1 className="title">Jarno <span className="purple">Bogaert.</span></h1>
+          </Fade>
+          <Fade right>
+            <p className="subtitle">Full stack <span className="underline">software</span> engineer.</p>
+          </Fade>
+
         </div>
       </div>
       {/* <Navbar />
