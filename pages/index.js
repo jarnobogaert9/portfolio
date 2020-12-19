@@ -1,9 +1,9 @@
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 import Head from 'next/head'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import Slide from 'react-reveal/Slide';
-import Projects from '../components/Projects';
+// import Projects from '../components/Projects';
 
 export default function Home() {
   return (
